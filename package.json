@@ -1,0 +1,14 @@
+{
+  "name": "bounty-sentinel",
+  "version": "0.1.0",
+  "description": "Watch GitHub-issue bounty boards and only ping you when a bounty is fresh and nobody has claimed it yet.",
+  "type": "module",
+  "bin": { "bounty-sentinel": "./src/cli.mjs" },
+  "scripts": {
+    "scan": "node src/cli.mjs scan",
+    "watch": "node src/cli.mjs watch"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT",
+  "keywords": ["bounty", "github", "opire", "bountyhub", "ai-agents", "scanner"]
+}

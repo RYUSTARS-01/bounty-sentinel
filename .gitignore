@@ -1,0 +1,4 @@
+node_modules/
+.bounty-state.json
+bounty-watch.log
+*.out.log
